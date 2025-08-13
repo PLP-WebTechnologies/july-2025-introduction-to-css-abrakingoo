@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+.main-header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid #388E3C;
+}
+
+/* Navigation */
+.nav-bar {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-bar button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nav-bar button:hover {
+  background-color: #777;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+
+  /* Box Model visualization */
+  box-sizing: border-box;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
